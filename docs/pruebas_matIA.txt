@@ -1,3 +1,22 @@
+Cantidad esperada: 2
+
+Caso 1:
+["pinza", "tijera", "pinza"]
+Predicción: coincide, ya que en la lista encontramos dos elementos llamados "pinza".
+Comando: python src/recuento_matIA.py
 2 pinzas: coincide
+Efectivamente, la salida coincide con la predicción.
+
+Caso 2:
+["tijera", "pinza"]
+Predicción: faltan pinzas, ya que en la lista encontramos un solo elemento llamado "pinza".
+Comando: python src/recuento_matIA.py
 1 pinza: faltan pinzas
+En efecto, la salida concuerda con la predicción.
+
+Caso 3:
+["pinza", "pinza", "tijera", "pinza"]
+Predicción: sobran pinzas, ya que en la lista encontramos tres elementos llamados "pinza".
+Comando: python src/recuento_matIA.py
 3 pinzas: sobran pinzas
+Efectivamente, la salida coincide con la predicción.
